@@ -27,4 +27,4 @@ fscan_loader_go.exe
 - [fscan.dll](./bin/fscan_go.dll)
 - [fscan.h](./bin/fscan.h)
 ## 详情
-- 
+- https://wjlin0.com/archives/1705092744971
