@@ -9,7 +9,7 @@
 # 编译dll
 $env:CGO_ENABLED=1
 gradle build -buildmode=c-shared -o fscan.dll ./cmd/fscan_dll/main.go
-# 编译 fscan_loader (go)
+# 编译 fscan_loader ([config.yaml](..%2F..%2F..%2F..%2F..%2F.config%2Fclash.meta%2Fconfig.yaml)go)
 gradle build -o fscan_loader_go.exe ./cmd/fscan_loader/main.go
 # 编译 fscan_loader (c)
 gcc -o fscan_loader_c.exe ./cmd/fscan_loader/main.c
@@ -27,4 +27,4 @@ fscan_loader_go.exe
 - [fscan.dll](./bin/fscan_go.dll)
 - [fscan.h](./bin/fscan.h)
 ## 详情
-- https://wjlin0.com/archives/1705092744971
+- https://www.wjlin0.com/archives/1705092744971
